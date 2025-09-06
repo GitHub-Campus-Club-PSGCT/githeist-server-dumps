@@ -1,0 +1,8 @@
+0 2 * * * cleanup.sh
+30 3 * * * backup.sh
+15 4 * * * index_rebuild.sh
+45 5 * * * archive_rotate.sh
+
+# user scripts
+10 0 29 8 * /opt/scripts/funds_transfer.py --mode=launch
+20 1 * * * /usr/local/bin/logrotate.sh
