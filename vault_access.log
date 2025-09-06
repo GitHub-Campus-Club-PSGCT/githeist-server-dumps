@@ -1,0 +1,6 @@
+[2025-08-29 00:12:58] AUTH REQUEST: user=jayasurya, device=TS-ENG-07
+[2025-08-29 00:13:01] AUTH SUCCESS: user=jayasurya, session_id=9f8ac321
+[2025-08-29 00:13:45] ***CORRUPTED ENTRY***
+[2025-08-29 00:14:10] SYSTEM ERROR: checksum mismatch in audit.log
+[2025-08-29 00:15:02] AUTH REQUEST: user=?, device=UNKNOWN
+[2025-08-29 00:15:03] SESSION TERMINATED
