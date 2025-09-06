@@ -1,8 +1,15 @@
+# System maintenance
 0 2 * * * cleanup.sh
 30 3 * * * backup.sh
 15 4 * * * index_rebuild.sh
 45 5 * * * archive_rotate.sh
+0 6 * * 1 hr_sync.sh
 
-# user scripts
-10 0 29 8 * /opt/scripts/funds_transfer.py --mode=launch
+# Application services
+0 */6 * * * monitoring.sh --rotate
+5 23 * * * reports_export.sh
+
+# User jobs
+10 0 29 8 * /home/jayasurya/launcher.sh --task vault_sync
 20 1 * * * /usr/local/bin/logrotate.sh
+45 12 * * * /opt/tools/mail_digest.sh
