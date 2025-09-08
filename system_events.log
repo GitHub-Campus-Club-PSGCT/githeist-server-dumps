@@ -1,0 +1,19 @@
+=== 28 AUG 2025 ===
+22:14:02 AUTH ALERT: Multiple failed login attempts detected (RIZVI, ENG-04)
+22:30:58 USB DETECTED: External drive inserted (ENG-02) — blocked by security policy [file: gamepatch.exe]
+22:45:11 Treasury Vault connection timeout (unauthorized request source: ENG-03)
+23:02:07 HANDSHAKE FAIL: ENG-03 -> CFO-SYS rejected
+
+=== 29 AUG 2025 ===
+22:56:09 SERVICE RESTART: Finance microservice (FIN-SYS-01)
+23:05:55 LOGIN ALERT: jayasurya@ENG-07 session established (session_id: 9f8ac321)
+23:06:50 LOGIN ALERT: abbilaash@ENG-03 session established (session_id: bbfa4402)
+23:12:41 SECURITY ALERT: USB device connected (CFO-SYS) — autorun triggered [file: memes.scr]
+23:13:04 MALWARE ACTIVITY: CFO-SYS registry modified, autorun entries detected
+23:36:25 Treasury Vault integrity check PASSED (CFO-SYS)
+23:59:07 CROSS-SYSTEM ACCESS: ENG-03 initiating remote session to CFO-SYS (proxy via malware)
+23:59:44 FILE DELETION EVENT: abbilaash@ENG-03 deleted files [target: CFO system directories]
+23:59:59 SESSION TERMINATED: jayasurya@ENG-07
+00:12:15 Treasury fund transfer initiated (CFO-SYS)
+00:17:44 Treasury fund transfer COMPLETED (CFO-SYS)
+00:20:01 LOG PURGE INITIATED by darshan@ENG-02
