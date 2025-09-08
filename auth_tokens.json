@@ -1,5 +1,28 @@
 [
   {
+    "timestamp": "2025-08-28T21:12:33Z",
+    "user": "rizvi",
+    "device": "ENG-06",
+    "session_id": "FAIL",
+    "token": null,
+    "reason": "invalid 2FA code"
+  },
+  {
+    "timestamp": "2025-08-28T21:33:42Z",
+    "user": "darshan",
+    "device": "ENG-08",
+    "session_id": "3af19b7d",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJI..."
+  },
+  {
+    "timestamp": "2025-08-28T22:10:11Z",
+    "user": "tejas",
+    "device": "ENG-02",
+    "session_id": "FAIL",
+    "token": null,
+    "reason": "session expired"
+  },
+  {
     "timestamp": "2025-08-29T22:51:33Z",
     "user": "shashwath",
     "device": "ENG-09",
