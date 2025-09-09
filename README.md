@@ -1,6 +1,6 @@
 #  Server Dumps
 
- This repository contains logs extracted from the corporate servers. Your goal is to analyze the data and reconstruct the events surrounding the treasury system.
+ This repository contains logs extracted from the corporate servers.
 
 ## Files
 
@@ -20,4 +20,3 @@
 2. Identify which systems/users have legitimate access and which attempts were denied.  
 3. Look for anomalies — any action that seems out of sequence or unexpected may indicate unauthorized activity.  
 
-Good luck — careful observation is key!
